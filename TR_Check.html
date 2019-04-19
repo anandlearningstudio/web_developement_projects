@@ -13,6 +13,7 @@
   </head>
 <body>
   <div class="container">
+    <h4>Please check all the test(s) you want to perform: </h4>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
         <label class="form-check-label" for="defaultCheck1">
@@ -42,7 +43,29 @@
         <label for="filepath">File:</label>
         <input type="text" class="form-control" id="filepath" placeholder="Enter the file location to save the output ">
       </div>
+    <h4>Please select the source: </h4>
+    <div class="dropdown">
+       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Source
+       <span class="caret"></span></button>
+       <ul class="dropdown-menu">
+         <li><a href="#">Hive</a></li>
+         <li><a href="#">Database</a></li>
+         <li><a href="#">File</a></li>
+       </ul>
     </div>
-    
+
+    <h4>Please select the Target: </h4>
+    <div class="dropdown">
+       <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Target
+       <span class="caret"></span></button>
+       <ul class="dropdown-menu">
+         <li><a href="#">Hive</a></li>
+         <li><a href="#">Database</a></li>
+         <li><a href="#">File</a></li>
+       </ul>
+    </div>
+
+    </div>
+
   </body>
 </html>
